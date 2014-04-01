@@ -9,5 +9,6 @@ from gdb_utilities.libstdcxx.v6.printers import register_libstdcxx_printers
 
 register_eigen_printers(None)
 register_libstdcxx_printers(None)
+print 'Eigen Pretty Printers registered'
 
 end
